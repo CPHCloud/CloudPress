@@ -1,23 +1,7 @@
 <?php
-ob_start();
-/*
-This is where you can drop your custom functions or
-just edit things like thumbnail sizes, header images,
-sidebars, comments, ect.
-*/
 
-/*********************
-INCLUDE NEEDED FILES
-*********************/
+include 'theme/cloudpress.php';
 
-// LOAD JOINTSWP CORE (if you remove this, the theme will break)
-require_once(get_template_directory().'/library/joints.php'); 
-
-// USE THIS TEMPLATE TO CREATE CUSTOM POST TYPES EASILY
-require_once(get_template_directory().'/library/custom-post-type.php'); // you can disable this if you like
-
-// CUSTOMIZE THE WORDPRESS ADMIN (off by default)
-require_once(get_template_directory().'/library/admin.php'); 
 
 // SUPPORT FOR OTHER LANGUAGES (off by default)
 // require_once(get_template_directory().'/library/translation/translation.php'); 
