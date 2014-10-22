@@ -145,7 +145,7 @@ class cloudpress {
 			wp_enqueue_script( 'foundation-js', get_template_directory_uri() . '/bower_components/foundation/js/foundation.min.js', array( 'jquery' ), $theme_version, true );
 
 			 // register main stylesheet
-			wp_enqueue_style( 'joints-stylesheet', get_template_directory_uri() . '/library/css/style.css', array(), $theme_version, 'all' );
+			wp_enqueue_style( 'cloudpress-css', get_template_directory_uri() . '/library/css/style.css', array(), $theme_version, 'all' );
 
 			 // register foundation icons
 			wp_enqueue_style( 'foundation-icons', get_template_directory_uri() . '/library/css/icons/foundation-icons.css', array(), $theme_version, 'all' );
